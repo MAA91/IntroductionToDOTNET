@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionToDOTNET", "Int
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "DataTypes\DataTypes.csproj", "{3CFCBB6C-E06E-413A-846C-F33375502EF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figure", "Figure\Figure.csproj", "{FA2642B7-9009-412A-A04E-123F084FE3A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{A9C0FAFC-54BA-4EE1-A9E6-87E105E01A9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{3CFCBB6C-E06E-413A-846C-F33375502EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CFCBB6C-E06E-413A-846C-F33375502EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CFCBB6C-E06E-413A-846C-F33375502EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA2642B7-9009-412A-A04E-123F084FE3A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA2642B7-9009-412A-A04E-123F084FE3A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA2642B7-9009-412A-A04E-123F084FE3A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA2642B7-9009-412A-A04E-123F084FE3A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C0FAFC-54BA-4EE1-A9E6-87E105E01A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C0FAFC-54BA-4EE1-A9E6-87E105E01A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C0FAFC-54BA-4EE1-A9E6-87E105E01A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C0FAFC-54BA-4EE1-A9E6-87E105E01A9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
