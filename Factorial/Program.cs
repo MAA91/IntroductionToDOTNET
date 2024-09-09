@@ -33,33 +33,21 @@ namespace Factorial
             //ромб
             #region
             Console.Write("Введите размер ромба: ");
-            int size = Convert.ToInt32(Console.ReadLine());
+            int size = Convert.ToInt32(Console.ReadLine()); size++;
             for (int i = -size; i <= size; i++)
             {
                 if (i == 0)
                     continue;
                 for (int j = -size; j <= size; j++)
                 {
+                    if (j == 0)
+                        continue;
                     if ((-Math.Abs(j) + size == i) || (Math.Abs(j) - size == i))
                     {
-                        if (i < 0)
-                        {
-                            if (j < 0)
-                                Console.Write('/');
-                            else if (j > 0)
-                                Console.Write(" \\");
-                            else
-                                Console.Write("/\\");
-                        }
+                        if (i * j > 0)
+                            Console.Write('/');
                         else
-                        {
-                            if (j < 0)
-                                Console.Write('\\');
-                            else if (j > 0)
-                                Console.Write(" /");
-                            else
-                                Console.Write("\\/");
-                        }
+                            Console.Write('\\');
                     }
                     else
                         Console.Write(" ");
