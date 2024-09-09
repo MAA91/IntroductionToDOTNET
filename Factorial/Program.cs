@@ -51,7 +51,7 @@ namespace Factorial
                             else
                                 Console.Write("/\\");
                         }
-                        else if (i > 0)
+                        else
                         {
                             if (j < 0)
                                 Console.Write('\\');
