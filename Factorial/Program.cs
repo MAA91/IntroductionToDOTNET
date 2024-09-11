@@ -13,19 +13,26 @@ namespace Factorial
         {
             //Factorial
             #region
-            Console.Write("Введите число: ");
-            short n = Convert.ToInt16(Console.ReadLine());
-            if (n < 0)
-                Console.WriteLine("Factorial of a negative number is not defined");
-            else
+            try
             {
-                double n_f = 1;
-                for (short i = 1; i <= n; i++, n_f *= i) ;
+                Console.Write("Введите число: ");
+                short n = Convert.ToInt16(Console.ReadLine());
+                if (n < 0)
+                    Console.WriteLine("Factorial of a negative number is not defined");
+                else
+                {
+                    double n_f = 1;
+                    for (short i = 1; i <= n; i++, n_f *= i) ;
                     Console.WriteLine($"{n}! = {n_f}");
 
-                BigInteger n_F = 1;
-                for (short i = 1; i <= n; i++, n_F *= i) ;
-                Console.WriteLine($"{n}! = {n_F}");
+                    BigInteger n_F = 1;
+                    for (short i = 1; i <= n; i++, n_F *= i) ;
+                    Console.WriteLine($"{n}! = {n_F}");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
             }
             Console.WriteLine();
             #endregion

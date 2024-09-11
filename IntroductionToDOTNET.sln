@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figure", "Figure\Figure.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{A9C0FAFC-54BA-4EE1-A9E6-87E105E01A9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{106246CD-EC4F-4D6A-938E-FABA32FE9B94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{D29B8577-B53B-4504-9BAD-3A1E2D07D50D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{A9C0FAFC-54BA-4EE1-A9E6-87E105E01A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9C0FAFC-54BA-4EE1-A9E6-87E105E01A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9C0FAFC-54BA-4EE1-A9E6-87E105E01A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106246CD-EC4F-4D6A-938E-FABA32FE9B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106246CD-EC4F-4D6A-938E-FABA32FE9B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106246CD-EC4F-4D6A-938E-FABA32FE9B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106246CD-EC4F-4D6A-938E-FABA32FE9B94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D29B8577-B53B-4504-9BAD-3A1E2D07D50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D29B8577-B53B-4504-9BAD-3A1E2D07D50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D29B8577-B53B-4504-9BAD-3A1E2D07D50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D29B8577-B53B-4504-9BAD-3A1E2D07D50D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
