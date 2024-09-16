@@ -12,10 +12,20 @@ namespace Calculator
         {
             Console.Write("Введите выражение: ");
             string expression = Console.ReadLine();
-            for (int i = 0; i < expression.Length; i++) 
+            String[] items = expression.Split('+', '-', '*', '/');
+            try
             {
-                if (expression[i] == ' ') continue;
-                if () {
+                double a = Convert.ToDouble(items[0]);
+                double b = Convert.ToDouble(items[1]);
+                if (expression.Contains('+')) Console.WriteLine($"{a} + {b} = {a + b}");
+                else if (expression.Contains('/')) Console.WriteLine($"{a} - {b} = {a - b}");
+                else if (expression.Contains('*')) Console.WriteLine($"{a} * {b} = {a * b}");
+                else if (expression.Contains('-')) Console.WriteLine($"{a} / {b} = {a / b}");
+                else Console.WriteLine("No operation");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
             }
         }
     }
